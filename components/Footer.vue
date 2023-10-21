@@ -2,6 +2,16 @@
 const goUp = () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
 };
+
+const { t } = useI18n();
+
+const toast = useToast();
+
+const comingSoon = () => {
+  toast.add({
+    title: t("coming_soon"),
+  });
+};
 </script>
 
 <template>
@@ -27,20 +37,10 @@ const goUp = () => {
               </h2>
               <ul class="text-gray-500 dark:text-gray-400 font-medium">
                 <li class="mb-4">
-                  <nuxt-link
-                    to="https://repo.nookure.com"
-                    target="__blank"
-                    class="hover:underline"
-                    >FAQ</nuxt-link
-                  >
+                  <span class="hover:underline cursor-pointer" @click="comingSoon">Frecuently Asked</span>
                 </li>
                 <li>
-                  <nuxt-link
-                    to="https://javadocs.nookure.com/"
-                    target="__blank"
-                    class="hover:underline"
-                    >Docs</nuxt-link
-                  >
+                  <span class="hover:underline cursor-pointer" @click="comingSoon">Documentation</span>
                 </li>
               </ul>
             </div>
@@ -52,14 +52,11 @@ const goUp = () => {
               </h2>
               <ul class="text-gray-500 dark:text-gray-400 font-medium">
                 <li class="mb-4">
-                  <a href="https://github.com/Nookure" class="hover:underline"
-                    >Terms of Service</a
-                  >
+                  <span class="hover:underline cursor-pointer" @click="comingSoon">Terms of Service</span>
+
                 </li>
                 <li>
-                  <a href="https://discord.nookure.com/" class="hover:underline"
-                    >Privacy Policy</a
-                  >
+                  <span class="hover:underline cursor-pointer" @click="comingSoon">Privacy Policy</span>
                 </li>
               </ul>
             </div>
