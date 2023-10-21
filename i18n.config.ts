@@ -23,4 +23,5 @@ export default defineI18nConfig(() => ({
     cookieKey: 'nook_lang',
     redirectOn: 'root',
   },
+  warnHtmlMessage: false,
 }))
