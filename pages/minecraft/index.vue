@@ -1,6 +1,11 @@
 <script lang="ts" setup>
-import plans from '~/data/plans';
 const { t } = useI18n();
+
+const performance = {
+  name: "Performance",
+  url: "/minecraft/performance",
+  image: "/resources/performance.png",
+};
 
 useHead({
   title: t("products.meta.title"),
@@ -15,10 +20,12 @@ useHead({
 
 <template>
   <header class="text-center pulse xl:text-7xl md:text-6xl text-4xl my-8">
-    <h1 v-html="$t('resource.header')" />
+    <h1 v-html="$t('categories.header')" />
   </header>
 
   <section class="flex justify-center mt-24 flex-wrap gap-4 my-16">
-    <Plan v-for="plan in plans" :key="plan.name" :plan="plan" />
+    <Plan :plan="performance">
+      <span v-html="$t('categories.performance.description')" />
+    </Plan>
   </section>
 </template>
