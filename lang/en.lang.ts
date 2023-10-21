@@ -6,12 +6,12 @@ export default {
     },
     welcome: {
       header: "Welcome to",
-      subHeader: "Where your ideas become code.",
+      subHeader: "Where we host your next network.",
     },
     features: {
-      scalability: {
-        header: "Scalability",
-        description: "Our solutions are designed to grow with your needs, ensuring long-term compatibility."
+      performance: {
+        header: "High performance",
+        description: "Our servers have a Ryzen 9 5900x proccesor to ensure the best performance."
       },
       customization: {
         header: "Customization",
@@ -35,8 +35,8 @@ export default {
   },
   nav: {
     home: "Home",
-    products: "Products",
-    docs: "Docs",
+    minecraft: "Minecraft Hosting",
+    panel: "Panel",
   },
   footer: {
     resources: "Resources",
@@ -44,7 +44,7 @@ export default {
     accounts: "Accounts",
   },
   resource: {
-    header: `Here some <span class="red-glow-gradient">amazing</span> projects`,
+    header: `Here some <span class="red-glow-gradient">amazing</span> plans`,
     visitPage: "Visit Page",
     mastaff: {
       description: "Staff Plugin for Spigot, Bukkit, Paper, Bungee and Folia",

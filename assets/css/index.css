@@ -2,9 +2,9 @@
   background: #cf3030;
   background: radial-gradient(
     circle farthest-corner at center center,
-    #cf3030 0%,
-    #ff6666 50%,
-    #ba5959 100%
+    #3e8ab3 0%,
+    #78A7C0 50%,
+    #3e8ab3 100%
   );
   background-clip: text;
   -webkit-background-clip: text;
@@ -33,12 +33,12 @@
 
 @keyframes pulse {
   0% {
-    filter: drop-shadow(0 0 80px #fc4a4a);
+    filter: drop-shadow(0 0 80px #78A7C0);
   }
   50% {
-    filter: drop-shadow(0 0 40px #fc4a4a);
+    filter: drop-shadow(0 0 40px #78A7C0);
   }
   100% {
-    filter: drop-shadow(0 0 80px #fc4a4a);
+    filter: drop-shadow(0 0 80px #78A7C0);
   }
 }

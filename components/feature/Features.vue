@@ -17,8 +17,8 @@ interface feature {
 const features: feature[] = [
   {
     icon: "i-heroicons-arrow-trending-up",
-    title: "index.features.scalability.header",
-    description: "index.features.scalability.description",
+    title: "index.features.performance.header",
+    description: "index.features.performance.description",
   },
   {
     icon: "i-heroicons-swatch",

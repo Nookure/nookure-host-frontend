@@ -6,7 +6,7 @@ export default {
     },
     welcome: {
       header: "Bienvenido a",
-      subHeader: "Donde tus ideas se vuelven código.",
+      subHeader: "Donde te alojamos tu proximo servidor.",
     },
     features: {
       scalability: {

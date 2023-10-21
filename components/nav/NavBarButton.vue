@@ -20,7 +20,7 @@ const props = defineProps({
     <nuxt-link
       :target="target"
       :to="to"
-      class="block py-2 pl-3 pr-4 text-red-white"
+      class="block py-2 pl-3 pr-4"
       aria-current="page"
       >{{ $t(tl) }}</nuxt-link
     >
@@ -29,7 +29,7 @@ const props = defineProps({
 
 <style scoped>
 .router-link-active {
-  color: theme("colors.red.500");
+  color: theme("colors.cyan.300");
   transition: color 0.1s ease-in-out;
 }
 </style>

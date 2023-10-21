@@ -7,7 +7,7 @@
         <NuxtImg src="/img/logo-white.png" height="35px" class="mx-2" />
         <span
           class="self-center text-2xl font-semibold whitespace-nowrap text-white"
-          >Nookure</span
+          >Nookure Host</span
         >
       </NuxtLink>
       <button
@@ -73,6 +73,7 @@
 
 <script lang="ts" setup>
 import { useRoute } from "#vue-router";
+import type link from "~/interfaces/link";
 const route = useRoute();
 const pages = [
   {
@@ -80,15 +81,15 @@ const pages = [
     tl: "nav.home",
   },
   {
-    to: "/products",
-    tl: "nav.products",
+    to: "/minecraft",
+    tl: "nav.minecraft",
   },
   {
-    to: "https://mastaff.nookure.com/",
-    tl: "nav.docs",
+    to: "https://control.nookure.host/",
+    tl: "nav.panel",
     target: "__blank",
   },
-];
+] as link[];
 
 const toggleNav = () => {
   const mobileNav = document.getElementById("navbar-mobile");
