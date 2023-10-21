@@ -10,7 +10,7 @@ defineProps({
 </script>
 
 <template>
-  <div class="max-w-sm border rounded-lg shadow bg-gray-800 border-gray-700">
+  <div class="max-w-sm min-w-[24rem] border rounded-lg shadow bg-gray-800 border-gray-700">
     <img
       v-if="plan.image"
       class="rounded-t-lg max-h-[180px] object-cover object-center w-full"
@@ -23,13 +23,18 @@ defineProps({
         {{ plan.name }}
       </h5>
       <p class="mb-3 font-normal text-gray-400">
-        {{ $t(plan.description) }}
+        <span v-if="plan.description">
+          {{ $t(plan.description) }}
+        </span>
+        
+        <slot />
       </p>
       <nuxt-link
         :to="plan.url"
+        :target="plan.blank ? '__blank' : ''"
         class="inline-flex items-center px-3 py-2 text-sm font-medium text-cente rounded-lg focus:ring-4 focus:outline-none bg-cyan-600 hover:bg-cyan-500 focus:ring-cyan-700 transition-all duration-500"
       >
-        {{ $t("resource.visitPage") }}
+        {{ $t("go") }}
         <svg
           class="w-3.5 h-3.5 ml-2"
           aria-hidden="true"
