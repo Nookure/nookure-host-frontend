@@ -21,19 +21,19 @@ const features: feature[] = [
     description: "index.features.performance.description",
   },
   {
-    icon: "i-heroicons-swatch",
-    title: "index.features.customization.header",
-    description: "index.features.customization.description",
+    icon: "i-heroicons-shield-check",
+    title: "index.features.protection.header",
+    description: "index.features.protection.description",
   },
   {
-    icon: "i-heroicons-lock-closed",
-    title: "index.features.security.header",
-    description: "index.features.security.description",
+    icon: "i-heroicons-bolt",
+    title: "index.features.deployment.header",
+    description: "index.features.deployment.description",
   },
   {
-    icon: "i-heroicons-clipboard-document-check",
-    title: "index.features.quality.header",
-    description: "index.features.quality.description",
+    icon: "i-heroicons-chat-bubble-left-right",
+    title: "index.features.support.header",
+    description: "index.features.support.description",
   },
 ];
 </script>
