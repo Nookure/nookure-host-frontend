@@ -1,6 +1,7 @@
 <script lang="ts" setup>
 import type PlanType from "~/interfaces/plan";
 const { t } = useI18n();
+
 const starter = {
   name: "Starter",
   image: "/resources/starter.jpeg",
@@ -28,10 +29,20 @@ const ultimate = {
   url: "https://discord.nookure.host",
   blank: true,
 } as PlanType;
+
+useHead({
+  title: t("products.meta.title"),
+  meta: [
+    {
+      name: "description",
+      content: t("products.meta.description"),
+    },
+  ],
+});
 </script>
 
 <template>
-  <header class="text-center pulse xl:text-7xl md:text-6xl text-4xl my-8">
+  <header class="text-center pulse xl:text-7xl md:text-6xl text-4xl mt-8">
     <h1 v-html="$t('categories.performance.header')" />
   </header>
 
@@ -52,4 +63,6 @@ const ultimate = {
       <span v-html="$t('categories.performance.ultimate.description')" />
     </Plan>
   </section>
+
+  <p class="text-center text-stone-500" v-html="$t('categories.performance.info')" />
 </template>
