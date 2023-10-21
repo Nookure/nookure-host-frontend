@@ -1,62 +1,112 @@
 export default {
   index: {
     meta: {
-      title: "Nookure - Home",
-      description: "Welcome to Nookure Studios Website, here you will find information about our projects and services.",
+      title: "Nookure Host • Inicio",
+      description: "Bienvenido a Nookure Host, hosting de Minecraft hecho sencillo.",
     },
     welcome: {
       header: "Bienvenido a",
-      subHeader: "Donde te alojamos tu proximo servidor.",
+      subHeader: "Hosting de Minecraft hecho sencillo.",
     },
     features: {
-      scalability: {
-        header: "Escalabilidad",
-        description: "Nuestras soluciones están diseñadas para crecer con sus necesidades, garantizando la compatibilidad a largo plazo."
+      performance: {
+        header: "Rendimiento",
+        description: "Nodos con procesadores Ryzen 9 5900x para garantizar la mejor experiencia."
       },
-      customization: {
-        header: "Personalización",
-        description: "Ofrecemos una amplia gama de opciones de personalización para satisfacer sus necesidades."
+      protection: {
+        header: "Protección",
+        description: "Todos nuestros servidores están protegidos por un sistema Anti-DDoS avanzado."
       },
-      security: {
-        header: "Seguridad",
-        description: "Priorizamos la seguridad por encima de todo y garantizamos soluciones rápidas para cualquier problema."
+      deployment: {
+        header: "Despliegue rápido",
+        description: "Nuestro sistema creará tu servidor justo después de recibir el pago."
       },
-      quality: {
-        header: "Calidad",
-        description: "Estamos comprometidos en proporcionar las mejores soluciones de calidad para nuestros clientes."
+      support: {
+        header: "Soporte",
+        description: "Nuestro equipo de soporte siempre te ayudará con todo lo relacionado con nuestros servicios."
       }
     },
   },
   products: {
     meta: {
-      title: "Nookure - Productos",
-      description: "Aquí encontrará información sobre nuestros productos.",
+      title: "Nookure • Planes",
+      description: "Aquí encontrarás información sobre nuestros productos.",
     },
   },
   nav: {
     home: "Inicio",
-    products: "Productos",
-    docs: "Docs",
+    minecraft: "Planes",
+    panel: "Panel",
   },
   footer: {
-    resources: "Recursos",
-    followUs: "Siguenos",
-    accounts: "Cuentas",
+    help: "Ayuda",
+    legal: "Legal",
+    links: "Enlaces",
   },
-  resource: {
-    header: `Algunos proyectos <span class="red-glow-gradient">increíbles</span>`,
+  categories: {
+    header: `Aquí están nuestras <span class="red-glow-gradient">increíbles</span> categorías`,
     visitPage: "Visitar Página",
-    mastaff: {
-      description: "Plugin de Staff para Spigot, Bukkit, Paper, Bungee y Folia",
+
+    performance: {
+      header: `¿Dijiste <span class="red-glow-gradient">rendimiento</span>?`,
+      description: `
+        Planes con el mejor rendimiento y el mejor precio.
+        <br>
+        Procesadores Ryzen 9 5900x, RAM DDR4 y SSD NVMe.
+        <br>
+        Protección Anti-DDoS de OVH.
+      `,
+      info: `
+      Cada servidor incluye 3 asignaciones (puertos), 3 bases de datos MySQL y 3 backups.
+      <br>
+      Para comprar cualquier servicio, abre un ticket en nuestro Discord.
+      `,
+      starter: {
+        description: `
+        Perfecto para servidores pequeños o proxys que no usan mucha RAM.
+        <br>
+        <br>
+        • 2GB RAM DDR4
+        <br>
+        • 0.5 vCore (Ryzen 9 5900x)
+        <br>
+        • 10GB NVMe.`,
+      },
+      basic: {
+        description: `
+        Adecuado para servidores de amigos o comunidades pequeñas.
+        <br>
+        <br>
+        • 4GB RAM DDR4
+        <br>
+        • 1 vCore (Ryzen 9 5900x)
+        <br>
+        • 25GB NVMe.`,
+      },
+      premium: {
+        description: `
+        Adecuado para comunidades medianas-grandes y servidores de versiones más nuevas.
+        <br>
+        <br>
+        • 8GB RAM DDR4
+        <br>
+        • 2 vCore (Ryzen 9 5900x)
+        <br>
+        • 60GB NVMe.`,
+      },
+      ultimate: {
+        description: `
+        Adecuado para comunidades medianas-grandes y servidores de versiones más nuevas.
+        <br>
+        <br>
+        • 16GB RAM DDR4
+        <br>
+        • 5v Core (Ryzen 9 5900x)
+        <br>
+        • 150GB NVMe.`,
+      },
     },
-    nooktheme: {
-      description: "Es un tema gratuito para pterodactyl simple y bonito listo para usar",
-    },
-    ice: {
-      description: "Un tema de Ice basado en Minecraft para Pterodactyl Panel",
-    },
-    purple: {
-      description: "Un tema de Purple basado en Minecraft para Pterodactyl Panel",
-    },
-  }
-}
+  },
+  go: "Ir a",
+  coming_soon: "Próximamente",
+};
