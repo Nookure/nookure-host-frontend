@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import products from '~/data/products';
+import plans from '~/data/plans';
 const { t } = useI18n();
 
 useHead({
@@ -19,6 +19,6 @@ useHead({
   </header>
 
   <section class="flex justify-center mt-24 flex-wrap gap-4 my-16">
-    <Product v-for="product in products" :key="product.name" :product="product" />
+    <Plan v-for="plan in plans" :key="plan.name" :plan="plan" />
   </section>
 </template>
