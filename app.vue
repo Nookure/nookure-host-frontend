@@ -1,14 +1,9 @@
 <template>
-  <div>
-    <NavBar />
-    <nuxt-layout>
-      <NuxtLoadingIndicator />
-      <NuxtPage />
-    </nuxt-layout>
-    <Footer />
-  </div>
+  <NuxtLayout>
+    <NuxtPage />
+  </NuxtLayout>
 </template>
 
 <style>
-@import url('assets/css/index.css');
+@import url("assets/css/index.css");
 </style>
