@@ -37,10 +37,18 @@ const comingSoon = () => {
               </h2>
               <ul class="text-gray-500 dark:text-gray-400 font-medium">
                 <li class="mb-4">
-                  <span class="hover:underline cursor-pointer" @click="comingSoon">{{ $t('footer.faq') }}</span>
+                  <span
+                    class="hover:underline cursor-pointer"
+                    @click="comingSoon"
+                    >{{ $t("footer.faq") }}</span
+                  >
                 </li>
                 <li>
-                  <span class="hover:underline cursor-pointer" @click="comingSoon">{{ $t('footer.documentation') }}</span>
+                  <span
+                    class="hover:underline cursor-pointer"
+                    @click="comingSoon"
+                    >{{ $t("footer.documentation") }}</span
+                  >
                 </li>
               </ul>
             </div>
@@ -52,10 +60,20 @@ const comingSoon = () => {
               </h2>
               <ul class="text-gray-500 dark:text-gray-400 font-medium">
                 <li class="mb-4">
-                  <span class="hover:underline cursor-pointer" @click="comingSoon">{{ $t('footer.tos') }}</span>
+                  <span
+                    class="hover:underline cursor-pointer"
+                    @click="comingSoon"
+                    >{{ $t("footer.tos") }}</span
+                  >
                 </li>
                 <li>
-                  <span class="hover:underline cursor-pointer" @click="comingSoon">{{ $t('footer.privacyPolicy') }}</span>
+                  <a
+                    href="/pdf/Privacy_Policy.pdf"
+                    target="_blank"
+                    class="hover:underline cursor-pointer"
+                    @click="comingSoon"
+                    >{{ $t("footer.privacyPolicy") }}</a
+                  >
                 </li>
               </ul>
             </div>
