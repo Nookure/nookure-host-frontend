@@ -76,7 +76,9 @@ export default {
         <br>
         • 0.5 vCore (Ryzen 9 5900x)
         <br>
-        • 10GB NVMe.`,
+        • 10GB NVMe.
+        <br>
+        • Protección Anti-DDoS de OVH.`,
       },
       basic: {
         description: `
@@ -87,7 +89,9 @@ export default {
         <br>
         • 1 vCore (Ryzen 9 5900x)
         <br>
-        • 25GB NVMe.`,
+        • 25GB NVMe.
+        <br>
+        • Protección Anti-DDoS de OVH.`,
       },
       premium: {
         description: `
@@ -98,7 +102,9 @@ export default {
         <br>
         • 2 vCore (Ryzen 9 5900x)
         <br>
-        • 60GB NVMe.`,
+        • 60GB NVMe.
+        <br>
+        • Protección Anti-DDoS de OVH.`,
       },
       ultimate: {
         description: `
@@ -109,7 +115,9 @@ export default {
         <br>
         • 5v Core (Ryzen 9 5900x)
         <br>
-        • 150GB NVMe.`,
+        • 150GB NVMe.
+        <br>
+        • Protección Anti-DDoS de OVH.`,
       },
     },
   },

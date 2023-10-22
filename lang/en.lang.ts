@@ -56,7 +56,7 @@ export default {
     visitPage: "Visit Page",
 
     performance: {
-      header: `Did you say <span class="red-glow-gradient">performance</span>?`,
+      header: `Did you say <span class="red-glow-gradient">Performance</span>?`,
       description: `
         • Plans with the best hardware and protection.
         <br>
@@ -82,9 +82,7 @@ export default {
         <br>
         • 10GB NVMe.
         <br>
-        • OVH Anti-DDoS protection.
-        <br>
-        • OVH Canada location.`,
+        • OVH Anti-DDoS protection.`,
       },
       basic: {
         description: `
@@ -97,9 +95,7 @@ export default {
         <br>
         • 25GB NVMe.        
         <br>
-        • OVH Anti-DDoS protection.
-        <br>
-        • OVH Canada location. `,
+        • OVH Anti-DDoS protection.`,
       },
       premium: {
         description: `
@@ -112,9 +108,7 @@ export default {
         <br>
         • 60GB NVMe.
         <br>
-        • OVH Anti-DDoS protection.
-        <br>
-        • OVH Canada location. `,
+        • OVH Anti-DDoS protection.`,
       },
       ultimate: {
         description: `
@@ -127,9 +121,7 @@ export default {
         <br>
         • 150GB NVMe.
         <br>
-        • OVH Anti-DDoS protection.
-        <br>
-        • OVH Canada location. `,
+        • OVH Anti-DDoS protection.`,
       },
     },
   },
