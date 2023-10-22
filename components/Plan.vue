@@ -38,9 +38,9 @@ const porcentage = (price: number, discount: number) => {
 
       <footer class="flex">
         <!-- When a plan has price -->
-        <span>
+        <span v-if="plan.price">
           <!--- When a plan has a discount -->
-          <span v-if="plan.discount && plan.price">
+          <span v-if="plan.discount">
             <span class="text-xl font-bold mr-2">
               {{ plan.price - porcentage(plan.price, plan.discount)
               }}{{ plan.unit ? plan.unit : "$" }}
