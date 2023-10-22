@@ -74,7 +74,7 @@ export default {
         <br>
         • 2GB RAM DDR4
         <br>
-        • 0.5 vCore (Ryzen 9 5900x)
+        • 2 vCore (Ryzen 9 5900x)
         <br>
         • 10GB NVMe.
         <br>
@@ -87,7 +87,7 @@ export default {
         <br>
         • 4GB RAM DDR4
         <br>
-        • 1 vCore (Ryzen 9 5900x)
+        • 2 vCore (Ryzen 9 5900x)
         <br>
         • 25GB NVMe.
         <br>
@@ -100,7 +100,7 @@ export default {
         <br>
         • 8GB RAM DDR4
         <br>
-        • 2 vCore (Ryzen 9 5900x)
+        • 3 vCore (Ryzen 9 5900x)
         <br>
         • 60GB NVMe.
         <br>
@@ -113,7 +113,7 @@ export default {
         <br>
         • 16GB RAM DDR4
         <br>
-        • 5v Core (Ryzen 9 5900x)
+        • 4v Core (Ryzen 9 5900x)
         <br>
         • 150GB NVMe.
         <br>
