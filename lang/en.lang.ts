@@ -46,22 +46,28 @@ export default {
     help: "Help",
     legal: "Legal",
     links: "Links",
+    faq: "Frequently Asked",
+    documentation: "Documentation",
+    tos: "Terms of Service",
+    privacyPolicy: "Privacy Policy"
   },
   categories: {
-    header: `Here are our <span class="red-glow-gradient">amazing</span> categories`,
+    header: `Here are our <span class="red-glow-gradient">amazing</span> plans`,
     visitPage: "Visit Page",
 
     performance: {
       header: `Did you say <span class="red-glow-gradient">performance</span>?`,
       description: `
-        Plans with the best performance and the best price.
+        • Plans with the best hardware and protection.
         <br>
-        Ryzen 9 5900x processors, DDR4 RAM and NVMe SSDs.
+        • Ryzen 9 5900x processors, DDR4 RAM and NVMe SSDs.
         <br>
-        OVH Anti-DDoS protection.
+        • OVH Anti-DDoS protection.
+        <br>
+        • Located on Beauharnois, Canada. 
       `,
       info: `
-      Every server includes 3 allocations (ports), 3 MySQL databases and 3 backups.
+      Each server includes 3 allocations (ports), 3 MySQL databases and 3 backups.
       <br>
       To purchase any service, open a ticket on our Discord.
       `,
@@ -74,7 +80,11 @@ export default {
         <br>
         • 0.5 vCore (Ryzen 9 5900x)
         <br>
-        • 10GB NVMe.`,
+        • 10GB NVMe.
+        <br>
+        • OVH Anti-DDoS protection.
+        <br>
+        • OVH Canada location.`,
       },
       basic: {
         description: `
@@ -85,7 +95,11 @@ export default {
         <br>
         • 1 vCore (Ryzen 9 5900x)
         <br>
-        • 25GB NVMe.`,
+        • 25GB NVMe.        
+        <br>
+        • OVH Anti-DDoS protection.
+        <br>
+        • OVH Canada location. `,
       },
       premium: {
         description: `
@@ -96,18 +110,26 @@ export default {
         <br>
         • 2 vCore (Ryzen 9 5900x)
         <br>
-        • 60GB NVMe.`,
+        • 60GB NVMe.
+        <br>
+        • OVH Anti-DDoS protection.
+        <br>
+        • OVH Canada location. `,
       },
       ultimate: {
         description: `
-        Suitable for medium-large communities and newer versions servers.
+        Suitable for large communities and the newest version servers.
         <br>
         <br>
         • 16GB RAM DDR4
         <br>
         • 5v Core (Ryzen 9 5900x)
         <br>
-        • 150GB NVMe.`,
+        • 150GB NVMe.
+        <br>
+        • OVH Anti-DDoS protection.
+        <br>
+        • OVH Canada location. `,
       },
     },
   },

@@ -42,22 +42,28 @@ export default {
     help: "Ayuda",
     legal: "Legal",
     links: "Enlaces",
+    faq: "Preguntas Frecuentes",
+    documentation: "Documentación",
+    tos: "Términos de Servicio",
+    privacyPolicy: "Política de Privacidad"
   },
   categories: {
-    header: `Aquí están nuestras <span class="red-glow-gradient">increíbles</span> categorías`,
+    header: `Aquí están nuestros <span class="red-glow-gradient">increíbles</span> planes`,
     visitPage: "Visitar Página",
 
     performance: {
-      header: `¿Dijiste <span class="red-glow-gradient">rendimiento</span>?`,
+      header: `¿Dijiste <span class="red-glow-gradient">Performance</span>?`,
       description: `
-        Planes con el mejor rendimiento y el mejor precio.
+        • Planes con el mejor hardware y protección.
         <br>
-        Procesadores Ryzen 9 5900x, RAM DDR4 y SSD NVMe.
+        • Procesadores Ryzen 9 5900x, RAM DDR4 y SSD NVMe.
         <br>
-        Protección Anti-DDoS de OVH.
+        • Protección Anti-DDoS de OVH.
+        <br>
+        • Ubicados en Beauharnois, Canada.
       `,
       info: `
-      Cada servidor incluye 3 asignaciones (puertos), 3 bases de datos MySQL y 3 backups.
+      Cada servidor incluye 3 puertos, 3 bases de datos MySQL y 3 backups.
       <br>
       Para comprar cualquier servicio, abre un ticket en nuestro Discord.
       `,

@@ -37,10 +37,10 @@ const comingSoon = () => {
               </h2>
               <ul class="text-gray-500 dark:text-gray-400 font-medium">
                 <li class="mb-4">
-                  <span class="hover:underline cursor-pointer" @click="comingSoon">Frecuently Asked</span>
+                  <span class="hover:underline cursor-pointer" @click="comingSoon">{{ $t('footer.faq') }}</span>
                 </li>
                 <li>
-                  <span class="hover:underline cursor-pointer" @click="comingSoon">Documentation</span>
+                  <span class="hover:underline cursor-pointer" @click="comingSoon">{{ $t('footer.documentation') }}</span>
                 </li>
               </ul>
             </div>
@@ -52,11 +52,10 @@ const comingSoon = () => {
               </h2>
               <ul class="text-gray-500 dark:text-gray-400 font-medium">
                 <li class="mb-4">
-                  <span class="hover:underline cursor-pointer" @click="comingSoon">Terms of Service</span>
-
+                  <span class="hover:underline cursor-pointer" @click="comingSoon">{{ $t('footer.tos') }}</span>
                 </li>
                 <li>
-                  <span class="hover:underline cursor-pointer" @click="comingSoon">Privacy Policy</span>
+                  <span class="hover:underline cursor-pointer" @click="comingSoon">{{ $t('footer.privacyPolicy') }}</span>
                 </li>
               </ul>
             </div>
@@ -130,7 +129,7 @@ const comingSoon = () => {
                   clip-rule="evenodd"
                 />
               </svg>
-              <span class="sr-only">GitHub Account</span>
+              <span class="sr-only">GitHub Profile</span>
             </nuxt-link>
             <nuxt-link
               @click="goUp"
