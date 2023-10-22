@@ -7,6 +7,8 @@ const starter = {
   image: "/resources/starter.jpeg",
   url: "https://discord.nookure.host",
   blank: true,
+  price: 6,
+  discount: 50,
 } as PlanType;
 
 const basic = {
@@ -14,6 +16,8 @@ const basic = {
   image: "/resources/basic.jpeg",
   url: "https://discord.nookure.host",
   blank: true,
+  price: 12,
+  discount: 50,
 } as PlanType;
 
 const premium = {
@@ -21,6 +25,8 @@ const premium = {
   image: "/resources/premium.jpeg",
   url: "https://discord.nookure.host",
   blank: true,
+  price: 23,
+  discount: 50,
 } as PlanType;
 
 const ultimate = {
@@ -28,6 +34,8 @@ const ultimate = {
   image: "/resources/ultimate.jpeg",
   url: "https://discord.nookure.host",
   blank: true,
+  price: 45,
+  discount: 50,
 } as PlanType;
 
 useHead({
