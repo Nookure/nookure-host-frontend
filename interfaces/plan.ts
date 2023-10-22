@@ -3,5 +3,8 @@ export default interface Product {
   url: string;
   description?: string;
   blank?: boolean;
+  price?: number;
+  unit?: string;
+  discount?: number;
   image: string;
 }
