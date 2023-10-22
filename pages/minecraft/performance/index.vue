@@ -72,5 +72,12 @@ useHead({
     </Plan>
   </section>
 
-  <p class="text-center text-stone-500" v-html="$t('categories.performance.info')" />
+  <div class="m-4 flex justify-center">
+    <UCard class="max-w-2xl self-center">
+      <p
+        class="text-center text-gray-400"
+        v-html="$t('categories.performance.info')"
+      />
+    </UCard>
+  </div>
 </template>
