@@ -40,7 +40,7 @@ export default {
   nav: {
     home: "Home",
     minecraft: "Plans",
-    panel: "Game Panel",
+    panel: "NookPanel",
   },
   footer: {
     help: "Help",

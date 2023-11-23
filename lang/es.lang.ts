@@ -36,7 +36,7 @@ export default {
   nav: {
     home: "Inicio",
     minecraft: "Planes",
-    panel: "Panel",
+    panel: "NookPanel",
   },
   footer: {
     help: "Ayuda",
