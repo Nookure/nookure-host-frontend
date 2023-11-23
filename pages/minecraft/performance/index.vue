@@ -5,37 +5,41 @@ const { t } = useI18n();
 const starter = {
   name: "Starter",
   image: "/resources/starter.jpeg",
-  url: "https://discord.nookure.host",
+  url: "https://billing.nookure.host/checkout/config/1",
   blank: true,
   price: 6,
   discount: 50,
+  monthly: true,
 } as PlanType;
 
 const basic = {
   name: "Basic",
   image: "/resources/basic.jpeg",
-  url: "https://discord.nookure.host",
+  url: "https://billing.nookure.host/checkout/config/2",
   blank: true,
   price: 12,
   discount: 50,
+  monthly: true,
 } as PlanType;
 
 const premium = {
   name: "Premium",
   image: "/resources/premium.jpeg",
-  url: "https://discord.nookure.host",
+  url: "https://billing.nookure.host/checkout/config/3",
   blank: true,
   price: 23,
   discount: 50,
+  monthly: true,
 } as PlanType;
 
 const ultimate = {
   name: "Ultimate",
   image: "/resources/ultimate.jpeg",
-  url: "https://discord.nookure.host",
+  url: "https://billing.nookure.host/checkout/config/4",
   blank: true,
   price: 45,
   discount: 50,
+  monthly: true,
 } as PlanType;
 
 useHead({

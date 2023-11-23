@@ -44,6 +44,8 @@ const porcentage = (price: number, discount: number) => {
             <span class="text-xl font-bold mr-2">
               {{ plan.price - porcentage(plan.price, plan.discount)
               }}{{ plan.unit ? plan.unit : "$" }}
+              <!--- When a plan is monthly -->
+              <span v-if="plan.monthly">/mo </span>
             </span>
             <span class="text-xl font-bold mr-2 line-through text-gray-400">
               {{ plan.price }}{{ plan.unit ? plan.unit : "$" }}
@@ -52,7 +54,8 @@ const porcentage = (price: number, discount: number) => {
 
           <!--- When a plan has no discount -->
           <span class="text-xl font-bold mr-2" v-else>
-            {{ plan.price }}{{ plan.unit ? plan.unit : "$" }}
+            {{ plan.price }}{{ plan.unit ? plan.unit : "$" }} 
+            <span v-if="plan.monthly">/mo </span>
           </span>
         </span>
         <nuxt-link

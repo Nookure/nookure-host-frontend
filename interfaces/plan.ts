@@ -7,4 +7,5 @@ export default interface Product {
   unit?: string;
   discount?: number;
   image: string;
+  monthly?: boolean;
 }
