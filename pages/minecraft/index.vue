@@ -7,6 +7,12 @@ const performance = {
   image: "/resources/performance.png",
 };
 
+const budget = {
+  name: "Budget",
+  url: "/minecraft/budget",
+  image: "/resources/budget.png",
+};
+
 useHead({
   title: t("products.meta.title"),
   meta: [
@@ -24,6 +30,10 @@ useHead({
   </header>
 
   <section class="flex justify-center mt-24 flex-wrap gap-4 my-16">
+    <Plan :plan="budget">
+      <span v-html="$t('categories.budget.description')" />
+    </Plan>
+
     <Plan :plan="performance">
       <span v-html="$t('categories.performance.description')" />
     </Plan>
