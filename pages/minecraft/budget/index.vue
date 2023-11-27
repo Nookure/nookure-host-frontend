@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import type PlanType from "~/interfaces/plan";
+import type PlanType from "../../../interfaces/plan";
 const { t } = useI18n();
 
 const starter = {
@@ -71,6 +71,16 @@ const ultra = {
   discount: 50,
   monthly: true,
 } as PlanType;
+
+useHead({
+  title: t("products.meta.title"),
+  meta: [
+    {
+      name: "description",
+      content: t("products.meta.description"),
+    },
+  ],
+});
 </script>
 
 <template>
