@@ -64,8 +64,6 @@ export default {
       `,
       info: `
       Cada servidor incluye 3 puertos, 3 bases de datos MySQL y 3 backups.
-      <br>
-      Para comprar cualquier servicio, abre un ticket en nuestro Discord.
       `,
       starter: {
         description: `
@@ -118,6 +116,112 @@ export default {
         • 150GB NVMe.
         <br>
         • Protección Anti-DDoS de OVH.`,
+      },
+    },
+    budget: {
+      header: `Comienza con nuestros servidores <span class="red-glow-gradient">económicos</span>`,
+      info: `
+      Cada servidor incluye 2 puertos, 3 bases de datos MySQL y 1 backup.
+      `,
+      description: `
+        • Planes con el mejor hardware y protección.
+        <br>
+        • Procesadores Ryzen 5 5600X, RAM DDR4 y SSD NVMe.
+        <br>
+        • Protección OVH Anti-DDoS.
+        <br>
+        • Ubicado en Beauharnois, Canadá.
+      `,
+      starter: {
+        description: `
+        Perfecto para servidores pequeños o proxies que no usan mucha RAM.
+        <br>
+        <br>
+        • 4GB RAM DDR4
+        <br>
+        • 2 vCore (Ryzen 5 5600X)
+        <br>
+        • 10GB NVMe.
+        <br>
+        • Protección OVH Anti-DDoS.`,
+      },
+      basic: {
+        description: `
+        Adecuado para servidores de amigos o comunidades pequeñas.
+        <br>
+        <br>
+        • 6GB RAM DDR4
+        <br>
+        • 2 vCore (Ryzen 5 5600X)
+        <br>
+        • 25GB NVMe.        
+        <br>
+        • Protección OVH Anti-DDoS.`,
+      },
+      premium: {
+        description: `
+        Adecuado para comunidades medianas-grandes y servidores de versiones más nuevas.
+        <br>
+        <br>
+        • 8GB RAM DDR4
+        <br>
+        • 3 vCore (Ryzen 5 5600X)
+        <br>
+        • 40GB NVMe.
+        <br>
+        • Protección OVH Anti-DDoS.`,
+      },
+      ultimate: {
+        description: `
+        Adecuado para comunidades grandes y servidores de la versión más nueva.
+        <br>
+        <br>
+        • 10GB RAM DDR4
+        <br>
+        • 4v Core (Ryzen 5 5600X)
+        <br>
+        • 60GB NVMe.
+        <br>
+        • Protección OVH Anti-DDoS.`,
+      },
+      extreme: {
+        description: `
+        Adecuado para comunidades grandes y servidores de la versión más nueva.
+        <br>
+        <br>
+        • 12GB RAM DDR4
+        <br>
+        • 4v Core (Ryzen 5 5600X)
+        <br>
+        • 80GB NVMe.
+        <br>
+        • Protección OVH Anti-DDoS.`,
+      },
+      network: {
+        description: `
+        Adecuado para comunidades grandes y servidores de la versión más nueva.
+        <br>
+        <br>
+        • 16GB RAM DDR4
+        <br>
+        • 4v Core (Ryzen 5 5600X)
+        <br>
+        • 100GB NVMe.
+        <br>
+        • Protección OVH Anti-DDoS.`,
+      },
+      ultra: {
+        description: `
+        Adecuado para comunidades grandes y servidores de la versión más reciente.
+        <br>
+        <br>
+        • 20GB RAM DDR4
+        <br>
+        • 4v Core (Ryzen 5 5600X)
+        <br>
+        • 150GB NVMe.
+        <br>
+        • Protección OVH Anti-DDoS.`,
       },
     },
   },

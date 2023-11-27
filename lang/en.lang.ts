@@ -54,7 +54,6 @@ export default {
   categories: {
     header: `Here are our <span class="red-glow-gradient">amazing</span> plans`,
     visitPage: "Visit Page",
-
     performance: {
       header: `Did you say <span class="red-glow-gradient">Performance</span>?`,
       description: `
@@ -68,8 +67,6 @@ export default {
       `,
       info: `
       Each server includes 3 allocations (ports), 3 MySQL databases and 3 backups.
-      <br>
-      To purchase any service, open a ticket on our Discord.
       `,
       starter: {
         description: `
@@ -124,6 +121,112 @@ export default {
         • OVH Anti-DDoS protection.`,
       },
     },
+    budget: {
+      header: `Begin with our <span class="red-glow-gradient">pocket-friendly</span> servers`,
+      info: `
+      Each server includes 2 allocations (ports), 3 MySQL databases and 1 backup.
+      `,
+      description: `
+        • Plans with the best hardware and protection.
+        <br>
+        • Ryzen 5 5600X processors, DDR4 RAM and NVMe SSDs.
+        <br>
+        • OVH Anti-DDoS protection.
+        <br>
+        • Located on Beauharnois, Canada. 
+      `,
+      starter: {
+        description: `
+        Perfect for small servers or proxies that don't use a lot of RAM.
+        <br>
+        <br>
+        • 4GB RAM DDR4
+        <br>
+        • 2 vCore (Ryzen 5 5600X)
+        <br>
+        • 10GB NVMe.
+        <br>
+        • OVH Anti-DDoS protection.`,
+      },
+      basic: {
+        description: `
+        Adequate for friend servers or small communities.
+        <br>
+        <br>
+        • 6GB RAM DDR4
+        <br>
+        • 2 vCore (Ryzen 5 5600X)
+        <br>
+        • 25GB NVMe.        
+        <br>
+        • OVH Anti-DDoS protection.`,
+      },
+      premium: {
+        description: `
+        Suitable for medium-large communities and newer versions servers.
+        <br>
+        <br>
+        • 8GB RAM DDR4
+        <br>
+        • 3 vCore (Ryzen 5 5600X)
+        <br>
+        • 40GB NVMe.
+        <br>
+        • OVH Anti-DDoS protection.`,
+      },
+      ultimate: {
+        description: `
+        Suitable for large communities and the newest version servers.
+        <br>
+        <br>
+        • 10GB RAM DDR4
+        <br>
+        • 4v Core (Ryzen 5 5600X)
+        <br>
+        • 60GB NVMe.
+        <br>
+        • OVH Anti-DDoS protection.`,
+      },
+      extreme: {
+        description: `
+        Suitable for large communities and the newest version servers.
+        <br>
+        <br>
+        • 12GB RAM DDR4
+        <br>
+        • 4v Core (Ryzen 5 5600X)
+        <br>
+        • 80GB NVMe.
+        <br>
+        • OVH Anti-DDoS protection.`,
+      },
+      network: {
+        description: `
+        Suitable for large communities and the newest version servers.
+        <br>
+        <br>
+        • 16GB RAM DDR4
+        <br>
+        • 4v Core (Ryzen 5 5600X)
+        <br>
+        • 100GB NVMe.
+        <br>
+        • OVH Anti-DDoS protection.`,
+      },
+      ultra: {
+        description: `
+        Suitable for large communities and the newest version servers.
+        <br>
+        <br>
+        • 20GB RAM DDR4
+        <br>
+        • 4v Core (Ryzen 5 5600X)
+        <br>
+        • 150GB NVMe.
+        <br>
+        • OVH Anti-DDoS protection.`,
+      },
+    }
   },
   go: "Go to",
   coming_soon: "Coming Soon",
