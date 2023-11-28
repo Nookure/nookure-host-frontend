@@ -45,7 +45,7 @@ const ultimate = {
 const extreme = {
   name: "Extreme",
   image: "/resources/extreme.png",
-  url: "https://billing.nookure.host/checkout/config/9",
+  url: "https://billing.nookure.host/budget-ca",
   blank: true,
   price: 24,
   discount: 50,
@@ -55,7 +55,7 @@ const extreme = {
 const network = {
   name: "Network",
   image: "/resources/network.png",
-  url: "https://billing.nookure.host/checkout/config/10",
+  url: "https://billing.nookure.host/budget-ca",
   blank: true,
   price: 32,
   discount: 50,
@@ -65,7 +65,7 @@ const network = {
 const ultra = {
   name: "Ultra",
   image: "/resources/ultra.jfif",
-  url: "https://billing.nookure.host/checkout/config/11",
+  url: "https://billing.nookure.host/budget-ca",
   blank: true,
   price: 40,
   discount: 50,
