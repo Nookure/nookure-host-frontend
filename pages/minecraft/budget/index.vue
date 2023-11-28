@@ -5,7 +5,7 @@ const { t } = useI18n();
 const starter = {
   name: "Starter",
   image: "/resources/starter.jpeg",
-  url: "https://billing.nookure.host/checkout/config/1",
+  url: "https://billing.nookure.host/checkout/config/5",
   blank: true,
   price: 8,
   discount: 50,
@@ -15,7 +15,7 @@ const starter = {
 const basic = {
   name: "Basic",
   image: "/resources/basic.jpeg",
-  url: "https://billing.nookure.host/checkout/config/2",
+  url: "https://billing.nookure.host/checkout/config/6",
   blank: true,
   price: 12,
   discount: 50,
@@ -25,7 +25,7 @@ const basic = {
 const premium = {
   name: "Premium",
   image: "/resources/premium.jpeg",
-  url: "https://billing.nookure.host/checkout/config/3",
+  url: "https://billing.nookure.host/checkout/config/7",
   blank: true,
   price: 16,
   discount: 50,
@@ -35,7 +35,7 @@ const premium = {
 const ultimate = {
   name: "Ultimate",
   image: "/resources/ultimate.jpeg",
-  url: "https://billing.nookure.host/checkout/config/4",
+  url: "https://billing.nookure.host/checkout/config/8",
   blank: true,
   price: 20,
   discount: 50,
@@ -45,7 +45,7 @@ const ultimate = {
 const extreme = {
   name: "Extreme",
   image: "/resources/extreme.png",
-  url: "https://billing.nookure.host/checkout/config/5",
+  url: "https://billing.nookure.host/checkout/config/9",
   blank: true,
   price: 24,
   discount: 50,
@@ -55,7 +55,7 @@ const extreme = {
 const network = {
   name: "Network",
   image: "/resources/network.png",
-  url: "https://billing.nookure.host/checkout/config/6",
+  url: "https://billing.nookure.host/checkout/config/10",
   blank: true,
   price: 32,
   discount: 50,
@@ -65,9 +65,9 @@ const network = {
 const ultra = {
   name: "Ultra",
   image: "/resources/ultra.jfif",
-  url: "https://billing.nookure.host/checkout/config/7",
+  url: "https://billing.nookure.host/checkout/config/11",
   blank: true,
-  price: 48,
+  price: 40,
   discount: 50,
   monthly: true,
 } as PlanType;
