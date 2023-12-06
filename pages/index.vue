@@ -12,6 +12,10 @@ useHead({
       name: "description",
       content: t("index.meta.description"),
     },
+    {
+      name: "keywords",
+      content: "Minecraft Hosting, Nookure, Nookure Hosting, Nookure Minecraft Hosting, Hosting de minecraft barato, cheap hosting, hosting barato, Nookure Host"
+    }
   ],
 });
 </script>
