@@ -27,14 +27,17 @@ const comingSoon = () => {
                 >Nookure Host</span
               >
             </nuxt-link>
+            <div class="mt-3 text-stone-400">
+              <span v-html="$t('footer.description')" />
+            </div>
           </div>
           <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>
-              <h2
+              <h3
                 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white"
               >
                 {{ $t("footer.help") }}
-              </h2>
+              </h3>
               <ul class="text-gray-500 dark:text-gray-400 font-medium">
                 <li class="mb-4">
                   <span
@@ -53,11 +56,11 @@ const comingSoon = () => {
               </ul>
             </div>
             <div>
-              <h2
+              <h3
                 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white"
               >
                 {{ $t("footer.legal") }}
-              </h2>
+              </h3>
               <ul class="text-gray-500 dark:text-gray-400 font-medium">
                 <li class="mb-4">
                   <span
@@ -78,11 +81,11 @@ const comingSoon = () => {
               </ul>
             </div>
             <div>
-              <h2
+              <h3
                 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white"
               >
                 {{ $t("footer.links") }}
-              </h2>
+              </h3>
               <ul class="text-gray-500 dark:text-gray-400 font-medium">
                 <li class="mb-4">
                   <nuxt-link

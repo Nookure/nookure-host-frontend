@@ -49,7 +49,8 @@ export default {
     faq: "Frequently Asked",
     documentation: "Documentation",
     tos: "Terms of Service",
-    privacyPolicy: "Privacy Policy"
+    privacyPolicy: "Privacy Policy",
+    description: "Nookure Host is a hosting service specialized in Minecraft servers. <br> We offer a wide variety of hosting plans so you can choose the one that best suits your needs."
   },
   categories: {
     header: `Here are our <span class="red-glow-gradient">amazing</span> plans`,
