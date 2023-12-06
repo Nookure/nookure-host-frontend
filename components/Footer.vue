@@ -92,7 +92,7 @@ const comingSoon = () => {
                     target="_blank"
                     to="https://control.nookure.host"
                     class="hover:underline"
-                    >Game Panel</nuxt-link
+                    >NookPanel</nuxt-link
                   >
                 </li>
                 <li>
