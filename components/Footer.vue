@@ -27,7 +27,7 @@ const comingSoon = () => {
                 >Nookure Host</span
               >
             </nuxt-link>
-            <div class="mt-3 text-stone-400">
+            <div class="mt-3 text-stone-400 pr-48">
               <span v-html="$t('footer.description')" />
             </div>
           </div>
