@@ -7,7 +7,7 @@ const starter = {
   image: "/resources/starter.jpeg",
   url: "https://billing.nookure.host/checkout/config/1",
   blank: true,
-  price: 6,
+  price: 8,
   discount: 50,
   monthly: true,
 } as PlanType;
@@ -17,7 +17,7 @@ const basic = {
   image: "/resources/basic.jpeg",
   url: "https://billing.nookure.host/checkout/config/2",
   blank: true,
-  price: 12,
+  price: 16,
   discount: 50,
   monthly: true,
 } as PlanType;
@@ -27,7 +27,7 @@ const premium = {
   image: "/resources/premium.jpeg",
   url: "https://billing.nookure.host/checkout/config/3",
   blank: true,
-  price: 23,
+  price: 32,
   discount: 50,
   monthly: true,
 } as PlanType;
@@ -37,7 +37,7 @@ const ultimate = {
   image: "/resources/ultimate.jpeg",
   url: "https://billing.nookure.host/checkout/config/4",
   blank: true,
-  price: 45,
+  price: 64,
   discount: 50,
   monthly: true,
 } as PlanType;
